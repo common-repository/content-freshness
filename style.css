@@ -1,0 +1,28 @@
+/* Title Styles */
+.up-posts-table td.title a {
+    font-weight: 600;
+	font-size: 1.1em;
+}
+
+/* Pagination Styles */
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination .page-numbers {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.pagination .page-numbers.current {
+    background-color: #0073aa;
+    color: white;
+    border-color: #0073aa;
+    font-weight: bold;
+}
